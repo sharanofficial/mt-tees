@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209" height="80" viewBox="0 0 209 80">
+  <defs>
+    <filter id="my_tee_s" x="0" y="0" width="209" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(12 12)">
+    <g transform="matrix(1, 0, 0, 1, -12, -12)" filter="url(#my_tee_s)">
+      <text id="my_tee_s-2" data-name="my tee&apos;s" transform="translate(12 51)" fill="#1f252a" font-size="40" font-family="Merriweather"><tspan x="0" y="0">MY</tspan><tspan y="0" fill="#707070"> </tspan><tspan y="0" fill="#feffff" font-family="Lato-Regular, Lato">TEE&apos;S</tspan></text>
+    </g>
+  </g>
+</svg>
